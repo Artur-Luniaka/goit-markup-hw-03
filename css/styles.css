@@ -72,13 +72,16 @@ img {
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(1128px / 6);
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
-.portfolio-border {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
+.port-item-container {
+  flex-basis: calc(1128px / 6);
+}
+.app-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .footer-container {
   display: flex;
