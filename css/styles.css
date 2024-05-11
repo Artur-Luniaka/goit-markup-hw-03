@@ -84,10 +84,14 @@ img {
   border-top: none;
 }
 .footer-container {
-  display: flex;
-  padding-top: 100px;
-  padding-bottom: 16px;
-  gap: 0px;
+  padding: 100px 0;
+}
+.link-logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.p-footer {
+  max-width: 264px;
 }
 /* Header */
 /* Logo */
